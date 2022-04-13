@@ -33,7 +33,6 @@ const navigation = [
   { name: "DOGEBUSD", href: "#dogeb", current: false },
   { name: "MATICBUSD", href: "#maticb", current: false },
   { name: "MANABUSD", href: "#manab", current: false },
-  { name: "Coin Performance", href: "#coinperformance", current: false },
 ];
 const secondaryNavigation = [
   { name: "Settings", href: "#", icon: CogIcon },
@@ -498,18 +497,6 @@ export default function Dashboard() {
                   //   width="1500"
                   //   height="940"
                   src="https://charts.mongodb.com/charts-project-02-tnjga/embed/dashboards?id=6254db99-86dc-4342-8704-da97e07f4a37&theme=light&autoRefresh=true&maxDataAge=3600&showTitleAndDesc=false&scalingWidth=fixed&scalingHeight=fixed"
-                ></iframe>
-                                <iframe
-                  id="coinperformance"
-                  className="w-[1000px] h-[1040px]"
-                  style={{
-                    backgroundColor: "white",
-                    border: "none",
-                    borderRadius: "2px",
-                  }}
-                  //   width="1500"
-                  //   height="940"
-                  src="https://charts.mongodb.com/charts-project-02-tnjga/embed/dashboards?id=9ac57148-c0a1-4b15-8172-6b34cc00c8da&theme=light&autoRefresh=true&maxDataAge=3600&showTitleAndDesc=false&scalingWidth=fixed&scalingHeight=fixed"
                 ></iframe>
               </div>
             </div>
